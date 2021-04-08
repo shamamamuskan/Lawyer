@@ -1,0 +1,345 @@
+
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #dc3545;
+}
+.banner{
+    background-image: url(../images/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+}
+.banner-content h1{
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.hg {
+    min-height: 90vh;
+    align-items: center;
+}
+.who-we-are{
+
+}
+.who-we-are:hover span{
+    width: 50px;
+}
+.who-we-are h1{
+    color: #28377e;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.who-we-are span{
+    height: 5px;
+    width: 0px;
+    background: #f15527;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+}
+.who-we-are p{
+    color: #b0b0b1;
+}
+.arrow_icon{
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    animation: updown .8s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes updown{
+    0%{
+        top: 90%;
+    }
+    100%{
+        top: 85%;
+    }
+}
+.what-we-do{
+    background-color:#f7f8f8;
+    background-image: url(../images/what-we-do-pic.png);
+    background-size: 885px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.what-we-do:hover .heading span{
+    width: 50px;
+}
+.heading{
+
+}
+.heading span{
+    height: 5px;
+    width: 0px;
+    background: #f15527;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+}
+.heading h1{
+    color: #28377e;
+    text-transform:capitalize ;
+    font-size: 40px;
+}
+.asilo-img{
+    position: relative;
+}
+.asilo-img::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+    transition: 0.4s all ease-in-out;
+}
+.asilo-img:hover::before{
+    height: 100%;
+}
+.title{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+.title h1{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+}
+.asilo-img:hover .title{
+    opacity: 1;
+    top: 50%;
+}
+.icon{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    color: white;
+    font-size: 30px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+.asilo-img:hover .icon{
+    opacity: 1;
+    left: 50%;
+}
+.our-attorneys{
+    background-image: url(../images/image9.png);
+}
+.our-attorneys:hover span{
+    width: 50px;
+}
+.our-attorneys span{
+    height: 5px;
+    width: 0px;
+    background: #f15527;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+}
+.our-attorneys h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.our-attorneys p{
+    color:#b0b0b1;
+    font-size: 15px;
+}
+.our-attorneys h5{
+    font-weight: 600;
+    color: #f15527;
+}
+.picture{
+    position: relative;
+}
+.picture::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0%;
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,28377e+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(40,55,126,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(40,55,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#28377e',GradientType=0 ); /* IE6-9 */
+    transition: 0.4s all ease-in-out;
+}
+.picture:hover::before{
+    height: 100%;
+}
+.hed{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+.hed h1{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 17px;
+}
+.picture:hover .hed{
+    opacity: 1;
+    top: 80%;
+}
+.the-languages h1{
+font-size: 40px;
+}
+.the-languages:hover  span{
+    width: 50px;
+}
+.the-languages span{
+    height: 5px;
+    width: 0px;
+    background: #f15527;
+    display: inline-block;
+    transition: 0.4s all ease-in-out;
+}
+.the-languages h4{
+    color: #28377e;
+    font-weight: 650;
+    font-size: 20px;
+}
+.the-languages h6{
+    font-weight: 600;
+    color: #f15527;
+    font-size: 15px;
+}
+.contact{
+    background-color: #28377e;
+}
+
+    .contact_form{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    padding: 50px 0;
+    }
+    .contact_form h1{
+        font-size: 40px;
+    }
+    
+    .contact_form input{
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    
+    }
+    .contact_form textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 0;
+    margin-bottom: 10px;
+    }
+    .contact_form input[type="submit"]{
+    width: auto;
+    color: white;
+    border: 1.5px solid #f15527;
+    padding: 7px 60px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s all ease-in-out;
+    }
+    .contact_form input[type="submit"]:hover{
+        background-color: #f15527;
+    }
+    .contact_form input::placeholder{
+    color: #999999;
+    text-transform: capitalize;
+    padding-left: 10px;
+    }
+    .contact_form input:focus{
+        outline: none;
+        border-color: white;
+        }
+    .contact_form textarea::placeholder{
+        color: #999999;
+        text-transform: capitalize;
+        padding-left: 10px;
+    }
+    .contact_form textarea:focus{
+        outline: none;
+        border-color: transparent;
+    }
+    footer{
+        background-color: #0c1234;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .footer_content{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .terms{
+        width: 30%;
+        float: left;
+        font-family: 'Lato', sans-serif;
+        
+    }
+    .terms ul{
+       margin: 16px;
+       padding: 0px;
+       list-style: none;
+    
+    }
+    .terms ul li{
+        float: left;
+        text-transform: capitalize;
+        color: #626262;
+        font-size: 13px;
+        margin-right: 15px;
+    }
+    .social_icons{
+       width: 40%;
+       float: right;
+       
+    }
+    .social_icons ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        float: right;
+    }
+    .social_icons ul li{
+        float: left;
+    }
+    .social_icons ul li a{
+        margin-left: 15px;
+        text-decoration: none;
+        color: #626262;
+    }
+    
